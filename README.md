@@ -14,7 +14,7 @@ Users can control the visibility of their content. This is managed via dynamic R
 
 ### 2. Mood Tracking & Creation
 A specialized post-creation form where users must attach a "Mood" to their update. This bridges the gap between a standard social feed and a health-tracking application.
-![Mood Selector](./screenshots/mood.png)
+<img src="./screenshots/mood.png" alt="Mood Selector" width="500">
 
 ### 3. Dynamic Filtering & Sorting
 The global feed features a robust, two-tier filtering system:
@@ -24,17 +24,17 @@ The global feed features a robust, two-tier filtering system:
 ### 4. Interactive User Dashboard & Analytics
 Users have full control over their identity. Profile updates (Name, Avatar) are managed in a `userSlice` and globally reflected across all past and future posts. 
 Additionally, a custom `recharts` integration analyzes the user's post history to generate a real-time **Mood Analytics Bar Chart**, providing visual insight into their emotional trends.
-![Profile & Analytics Dashboard](./screenshots/profile.png)
+<img src="./screenshots/profile.png" alt="Profile & Analytics Dashboard" width="500">
 
 ### 5. Internationalization (i18n)
 Built for a global audience, the application features seamless, on-the-fly language switching between English and Ukrainian using `react-i18next`. All form placeholders, modal text, and dynamic chart labels translate instantly without a page reload.
-![Ukrainian Translation](screenshots/ua.png)
+<img src="./screenshots/ua.png" alt="Ukrainian Translation" width="500">
 
 ### 6. Engaging Interactions & Routing
 * **Likes & Comments:** Fully functional interactive elements managed asynchronously via Redux Toolkit.
-![Likes and Comments](./screenshots/likecomment.png)
+<img src="./screenshots/likecomment.png" alt="Likes and Comments" width="500">
 * **Single Post View:** Clickable post cards utilize React Router to isolate single interactions, rendering dedicated `/post/:id` pages.
-![Single Post View](./screenshots/onepost.png)
+<img src="./screenshots/onepost.png" alt="Single Post View" width="500">
 
 ### 7. Accessibility (a11y) & Performance
 * Fully navigable via `Tab` and `Enter` keys.
