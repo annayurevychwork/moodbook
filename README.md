@@ -10,11 +10,17 @@ This project was built to demonstrate advanced frontend architecture, including 
 Users can control the visibility of their content. This is managed via dynamic Redux filtering:
 * 🌐 **Public:** Visible to everyone on the global feed.
 * 🔒 **Private Journal:** Safely hidden from the public feed. These entries are strictly rendered only for the author, allowing them to use the app as a personal mood diary.
-<img src="./screenshots/main.png" alt="Main Feed & Privacy" width="500">
+
+<div align="center">
+  <img src="./screenshots/main.png" alt="Main Feed & Privacy" width="500">
+</div>
 
 ### 2. Mood Tracking & Creation
 A specialized post-creation form where users must attach a "Mood" to their update. This bridges the gap between a standard social feed and a health-tracking application.
-<img src="./screenshots/mood.png" alt="Mood Selector" width="500">
+
+<div align="center">
+  <img src="./screenshots/mood.png" alt="Mood Selector" width="500">
+</div>
 
 ### 3. Dynamic Filtering & Sorting
 The global feed features a robust, two-tier filtering system:
@@ -24,17 +30,30 @@ The global feed features a robust, two-tier filtering system:
 ### 4. Interactive User Dashboard & Analytics
 Users have full control over their identity. Profile updates (Name, Avatar) are managed in a `userSlice` and globally reflected across all past and future posts. 
 Additionally, a custom `recharts` integration analyzes the user's post history to generate a real-time **Mood Analytics Bar Chart**, providing visual insight into their emotional trends.
-<img src="./screenshots/profile.png" alt="Profile & Analytics Dashboard" width="500">
+
+<div align="center">
+  <img src="./screenshots/profile.png" alt="Profile & Analytics Dashboard" width="500">
+</div>
 
 ### 5. Internationalization (i18n)
 Built for a global audience, the application features seamless, on-the-fly language switching between English and Ukrainian using `react-i18next`. All form placeholders, modal text, and dynamic chart labels translate instantly without a page reload.
-<img src="./screenshots/ua.png" alt="Ukrainian Translation" width="500">
+
+<div align="center">
+  <img src="./screenshots/ua.png" alt="Ukrainian Translation" width="500">
+</div>
 
 ### 6. Engaging Interactions & Routing
 * **Likes & Comments:** Fully functional interactive elements managed asynchronously via Redux Toolkit.
-<img src="./screenshots/likecomment.png" alt="Likes and Comments" width="500">
+
+<div align="center">
+  <img src="./screenshots/likecomment.png" alt="Likes and Comments" width="500">
+</div>
+
 * **Single Post View:** Clickable post cards utilize React Router to isolate single interactions, rendering dedicated `/post/:id` pages.
-<img src="./screenshots/onepost.png" alt="Single Post View" width="500">
+
+<div align="center">
+  <img src="./screenshots/onepost.png" alt="Single Post View" width="500">
+</div>
 
 ### 7. Accessibility (a11y) & Performance
 * Fully navigable via `Tab` and `Enter` keys.
