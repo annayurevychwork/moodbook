@@ -10,7 +10,7 @@ This project was built to demonstrate advanced frontend architecture, including 
 Users can control the visibility of their content. This is managed via dynamic Redux filtering:
 * 🌐 **Public:** Visible to everyone on the global feed.
 * 🔒 **Private Journal:** Safely hidden from the public feed. These entries are strictly rendered only for the author, allowing them to use the app as a personal mood diary.
-![Main Feed & Privacy](./screenshots/main.png)
+<img src="./screenshots/main.png" alt="Main Feed & Privacy" width="500">
 
 ### 2. Mood Tracking & Creation
 A specialized post-creation form where users must attach a "Mood" to their update. This bridges the gap between a standard social feed and a health-tracking application.
